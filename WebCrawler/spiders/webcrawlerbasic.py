@@ -24,10 +24,10 @@ class WebCrawlerBasic(CrawlSpider):
         super(WebCrawlerBasic, self).__init__(*args, **kwargs)
         
     def parse_page(self, response):
-        page = {'page': {'url':response.url, 'status':response.status}}
+        page = {'url': response.url, 'status': response.status}
         url_extracted = extract(response.url)
         if self.target_domain == "{}.{}".format(url_extracted.domain, url_extracted.suffix):
-            page['links'] =  self.parse_links(response)
+            page['links'] = self.parse_links(response)
         yield page
             
     def parse_links(self, response):
