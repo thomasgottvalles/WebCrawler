@@ -1,9 +1,9 @@
 # WebCrawler
 
-## Description
+## description
 
-## Installation
+## installation and execution
 
-## Contribute
+## Credits
 
 ## Licence
