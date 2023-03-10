@@ -16,3 +16,7 @@ class LinksItems(scrapy.Item):
     external = scrapy.Field()
     internal = scrapy.Field()
     pass
+
+class SiteItems(scrapy.Item):
+    domain = scrapy.Field()
+    pass
