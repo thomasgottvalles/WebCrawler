@@ -1,8 +1,8 @@
 # WebCrawler
 
-## description
+## Description
 
-## installation and execution
+## Installation and execution
 
 ## Credits
 
